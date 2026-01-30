@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="./antispam_logo.png" alt="Antispam Logo" width="600px" />
-</p>
+<p align="center"><img src="./logo.png" alt="MailBro Logo" width="600px" /></p>
 
 # MailBro: API to send emails
 
