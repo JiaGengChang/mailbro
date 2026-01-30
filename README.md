@@ -2,9 +2,9 @@
 
 # MailBro: API to send emails
 
-Tired of being on the receiving end of spam mails? Use **antispam** to spam them back.
+Tired of being on the receiving end of spam mails? Use **MailBro** to spam them back.
 
-antispam is a barebones FastAPI application that sends pre-configured or user-specified emails to a list of addresses.
+MailBro is a barebones FastAPI application that sends pre-configured or user-specified emails to a list of addresses.
 
 ## Use Cases
 
@@ -20,7 +20,7 @@ antispam is a barebones FastAPI application that sends pre-configured or user-sp
 ## Setup Instructions
 
 1. Provide a list of whitelisted keys in `apikeys.txt`
-2. Build the container: `docker build -t antispam .`
+2. Build the container: `docker build -t mailbro .`
 3. Deploy on the cloud with environment variables: `MAIL_USERNAME`, `MAIL_PASSWORD`, and `MAIL_SERVER`
 
 ## API Endpoints
